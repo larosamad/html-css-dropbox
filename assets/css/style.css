@@ -17,12 +17,43 @@
 }
 
 .blue{
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     padding: 10px;
     border: none;
 }
 
+.bg-blue{
+    background-color: #b4d0e7;
+}
+
+.width80{
+    width: 80%;
+    margin: auto;
+}
+
+.width70{
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.margin-vertical{
+    margin: 20px 0;
+}
 /* Altre classi */
 
 nav{
@@ -37,4 +68,29 @@ nav{
 }
 .nav-right-menu, .nav-left-menu{
     margin: 0px 20px;
+}
+
+.jumbotron{
+    padding-top: 100px;
+}
+
+.jumbo-left{
+    flex-basis: 25%;
+    line-height: 24px;
+}
+
+.jumbo-right{
+    flex-basis: 70%;
+    position: relative;
+}
+
+.jumbo-right img{
+    width: 100%;
+    top: 0;
+    bottom: -10px;
+}
+
+.fa-arrow-down{
+    font-size: 2.5rem;
+    margin-top: 50px;
 }
