@@ -53,6 +53,12 @@
     padding: 10px;
 }
 
+.no-border{
+    border: none;
+    padding: 10px 40px;
+    font-size: 1.3rem;
+}
+
 .text-center{
     text-align: center;
 }
@@ -232,8 +238,14 @@ li{
 }
 
 .card{
-    height: auto;
+    height: 50%;
+    padding: 40px;
 }
+
+.card-white img{
+    filter: invert(1);
+}
+
 
 .designit{
     background-color: #a2d39b;
@@ -269,4 +281,12 @@ li{
 
 .clearchannel{
     background-color: #FFD830;
+}
+
+.flexed-left{
+    flex-basis: 50%;
+}
+
+.vine-text{
+    color: #61082B;
 }
