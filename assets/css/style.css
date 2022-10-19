@@ -173,3 +173,19 @@ nav{
 li{
     padding: 8px 0;
 }
+
+.team-left{
+    padding: 20px;
+    flex-basis: 70%;
+}
+
+.enterprise{
+    margin: 20px 0;
+}
+.solutions{
+    margin-top: 50px;
+}
+
+.team-right{
+    padding: 20px 20px;
+}
