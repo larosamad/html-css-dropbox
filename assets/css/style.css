@@ -24,13 +24,10 @@
     align-items: center;
 }
 
-/* .column{
-    flex-direction: column;
-} */
-
 .f-basis-three{
     flex-basis: 32%;
 }
+
 
 .blue{
     background-color: #0061ff;
@@ -39,6 +36,9 @@
     border: none;
 }
 
+.text-center{
+    text-align: center;
+}
 
 .bg-blue{
     background-color: #b4d0e7;
@@ -160,4 +160,8 @@ nav{
     margin-right: 5px;
     color:#0061ff;
     font-weight: bolder;
+}
+
+.btn{
+    width: 100%;
 }
