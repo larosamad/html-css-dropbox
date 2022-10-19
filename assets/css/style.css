@@ -3,4 +3,38 @@
     padding: 0px;
     box-sizing: border-box;
     list-style: none;
+    font-family: sans-serif;
+}
+
+/* Ricorrenti */
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-center{
+    align-items: center;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+/* Altre classi */
+
+nav{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+}
+
+.nav-left, .nav-right{
+    margin: 20px 20px;
+}
+.nav-right-menu, .nav-left-menu{
+    margin: 0px 20px;
 }
