@@ -383,3 +383,32 @@ footer ul{
 .fa-earth-europe{
     margin-right: 8px;
 }
+
+.specifics .fa-solid{
+    margin-right: 10px;
+}
+
+
+main > section li{
+    display: flex
+}
+
+.specifics div{
+    display: flex;
+}
+
+.circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;  
+    border: 4px solid grey;
+}
+
+.blue-border{
+    border: #0061ff 6px solid;
+}
+
+span{
+    vertical-align: middle;
+}
