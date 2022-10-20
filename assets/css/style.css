@@ -280,6 +280,7 @@ li{
 .designit-big{
     background-color: #F5F5F5;
     height: calc(100vw/3);
+    overflow: auto;
 }
 
 .world{
