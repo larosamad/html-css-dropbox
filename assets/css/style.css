@@ -247,7 +247,7 @@ li{
 
 /* Non utilizzata */
 .square{
-    height: calc(100%/3);
+    height: calc(100vw/3);
 }
 
 .card{
@@ -279,6 +279,7 @@ li{
 
 .designit-big{
     background-color: #F5F5F5;
+    height: calc(100vw/3);
 }
 
 .world{
