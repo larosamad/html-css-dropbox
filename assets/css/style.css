@@ -43,8 +43,12 @@
 .blue{
     background-color: #0061ff;
     color: white;
-    padding: 10px;
+    padding: 12px 10px;
     border: none;
+}
+
+.blue:hover{
+    background-color: #2f8bff;
 }
 
 .white{
@@ -53,8 +57,14 @@
     padding: 10px;
 }
 
+.white:hover{
+    border: 1px solid grey;
+    border-style: unset;
+    color: grey;
+}
+
 .no-border{
-    border: none;
+    border-style: hidden;
     padding: 10px 40px;
     font-size: 1.3rem;
 }
@@ -147,16 +157,23 @@ nav{
     z-index: 1;
     width: 100%;
     background-color: white;
+    height: 70px;
 }
 
 .nav-left, .nav-right{
-    margin: 20px 20px;
+    margin: 0 20px;
 }
 
 .nav-right-menu, .nav-left-menu{
-    margin: 0px 20px;
+    margin: 0 20px;
+    align-self: center;
+    height: 70px;
+    padding-top: 23px;
 }
 
+.nav-left-menu:hover, .nav-right-menu:hover{
+    border-bottom: 2px black solid;
+}
 
 .jumbotron{
     padding-top: 120px;
@@ -315,12 +332,24 @@ hr{
     margin-right: 20px;
 }
 
+.fa-angle-up{
+    display: none;
+}
+
+.make-appear:hover .fa-angle-up{
+    display: inline-block;
+}
+
 .make-appear{
     font-weight: bolder;
 }
 
 .make-appear:hover .appear{
     display: block;
+}
+
+.make-appear:hover .fa-angle-down{
+    display: none;
 }
 
 .appear{
