@@ -332,14 +332,6 @@ hr{
     margin-right: 20px;
 }
 
-.fa-angle-up{
-    display: none;
-}
-
-.make-appear:hover .fa-angle-up{
-    display: inline-block;
-}
-
 .make-appear{
     font-weight: bolder;
 }
@@ -349,7 +341,7 @@ hr{
 }
 
 .make-appear:hover .fa-angle-down{
-    display: none;
+    transform: rotate(180deg);
 }
 
 .appear{
